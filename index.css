@@ -1,0 +1,317 @@
+html {
+    font-size: 62.5% !important;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* @media (min-width : 992px) {
+    html {
+        font-size: 70%!important;
+    }
+}
+@media (min-width : 762px) and (max-width:991px){
+    html {
+        font-size: 60%!important;
+    }
+}
+@media (max-width : 761px) {
+    html {
+        font-size: 50%!important;
+    }
+} */
+ul {
+    list-style: none;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.my-left {
+    left: 0px;
+}
+.my-left ul li {
+    position: relative;
+}
+.my-left ul li span  {
+    width: 0%;
+    height: 2px;
+    background: #333;
+    position: absolute;
+    transition: all 0.5s;
+}
+
+@media (max-width:992px) {
+    .my-left {
+        position: relative !important;
+    }
+}
+
+.nav a img {
+    width: 36px;
+    height: 36px;
+}
+
+.nav .nav-item a {
+    font-size: 1.6rem;
+}
+
+/* .my-center {
+    height: calc(100vh - 45px);
+} */
+@media (min-width:992px) {
+    .my-center {
+        height: calc(100vh - 45px);
+    }
+}
+
+.my-center p {
+    font-size: 2.6rem;
+}
+
+.center span img,
+.my-list>img {
+    vertical-align: top;
+}
+
+.center span a,
+.lists button {
+    font-weight: 100 !important;
+    font-size: 1.6rem;
+}
+
+.center button,
+.lists>a button {
+    border-radius: 16px;
+}
+
+.my-list {
+    transition: all 0.2s;
+    transform: scale(2);
+    display: none;
+    z-index: 1111;
+    position: absolute;
+    top: 0px;
+    left: 1px;
+    background: #fff;
+    height: 100vh;
+    width: 100%;
+    box-shadow: 1px 0px 5px rgb(235, 233, 233);
+}
+
+.lists {
+    list-style: none;
+    font-size: 1.8rem;
+}
+
+.lists li {
+    line-height: 2.1;
+}
+
+.lists p span a {
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, .38);
+}
+
+.next-banner {
+    font-size: 4.5rem;
+}
+
+.my-img img {
+    transition: all 0.3s;
+    box-shadow: 1px 1px 5px rgb(212, 212, 212);
+}
+
+.my-img img:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 15px rgb(177, 177, 177);
+}
+
+.julebu p {
+    color: rgba(0, 0, 0, .70);
+    font-size: 1.6rem;
+    line-height: 1.9;
+    word-wrap: break-word;
+    word-break: normal;
+}
+
+.julebu p a {
+    color: #C2A661;
+}
+
+.julebu button {
+    border-radius: 20px;
+    font-size: 1.6rem;
+}
+
+@media (max-width: 576px) {
+    .julebu div.col-sm-auto {
+        margin: 30px 0;
+    }
+}
+
+.selected>div h3,
+.forum div h3 {
+    font-size: 2.2rem;
+    color: #000 !important;
+    font-family: "Gotham", Helvetica, Arial, PingFangSC-Regular, "Microsoft YaHei", "WenQuanYi Micro Hei", sans-serif;
+}
+
+.selected>div small,
+.forum div small {
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, .56);
+}
+
+.selected ul li img {
+    height: 75px;
+}
+
+.my-ul li a {
+    transition: all 0.3s;
+    width: 100%;
+    box-shadow: 1px 1px 5px rgb(226, 226, 226);
+}
+
+.my-ul li a:hover {
+    transform: translateY(-10px);
+    box-shadow: 1px 1px 10px rgb(204, 204, 204);
+}
+
+.my-ul li a img {
+    margin-top: -40px;
+}
+
+.my-ul li a h4 {
+    color: rgba(0, 0, 0, .87);
+    font-weight: 600;
+    font-size: 1.6rem;
+}
+
+.my-ul li a p {
+    color: rgba(0, 0, 0, .56);
+    font-size: 1.4rem;
+}
+
+.my-ul li a p:last-child {
+    color: #C2A661;
+    font-size: 1.2rem;
+}
+
+.forum div ul {
+    width: 1300px;
+    position: relative;
+    transition: all 0.3s;
+}
+
+.forum div ul li {
+    margin-right: 30px;
+    width: 288px;
+    height: 225px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 1px 1px 3px rgb(221, 221, 221);
+}
+
+.forum div ul li:hover {
+    margin-top: -10px;
+    box-shadow: 1px 1px 5px rgb(184, 184, 184);
+}
+
+.forum div ul li .img {
+    width: 288px;
+    height: 168px;
+    background-size: cover;
+}
+
+.forum div ul li p {
+    padding: 20px 0 0px 20px;
+    font-size: 1.6rem;
+    color: rgba(0, 0, 0, .78);
+}
+
+.forum div ul li .knowledge {
+    position: absolute;
+    font-size: 1.6rem;
+    top: 5px;
+    height: 30px;
+    padding: 5px;
+    background: #C2A661;
+    color: #fff;
+}
+
+.forum div ul li:nth-child(1) .img {
+    background-image: url('https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-coffee-cultivation-kv.jpg');
+}
+
+.forum div ul li:nth-child(2) .img {
+    background-image: url('https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-4-fundamentals-kv.jpg');
+}
+
+.forum div ul li:nth-child(3) .img {
+    background-image: url('https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-roast-story-kv.jpg');
+}
+
+.forum div ul li:nth-child(4) .img {
+    background-image: url('https://www-static.chinacdn.starbucks.com.cn/prod/assets/images/homepage/coffeehouse-pour-over-kv.jpg');
+}
+
+.icon i {
+    cursor: pointer;
+    font-size: 35px;
+    top: 70px;
+    color: #ccc;
+    position: absolute;
+    transition: all 0.2s;
+}
+
+#next {
+    right: 20px;
+}
+
+.icon i:hover {
+    transform: scale(1.3);
+}
+
+footer a span {
+    color: #666;
+    font-size: 1.4rem;
+}
+
+footer a span:hover {
+    color: #000;
+}
+@media (max-width:576px) {
+    footer {
+        margin-bottom: 100px;
+    }
+}
+
+.laststyle>div {
+    box-shadow: 1px 1px 5px #ccc;
+}
+
+.laststyle i {
+    font-size: 24px;
+    width: 100%;
+    text-align: center;
+    display: inline-block;
+    color: rgba(0, 0, 0, .65);
+}
+
+.laststyle p {
+    color: rgba(0, 0, 0, .67);
+    font-size: 1.4rem;
+}
+
+.laststyle .active i,
+.laststyle .active p {
+    color: #00A862;
+}

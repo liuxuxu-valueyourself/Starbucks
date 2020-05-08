@@ -1,0 +1,72 @@
+{
+  "id": "1700589",
+  "name": "星巴克",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1239274",
+      "name": "登录",
+      "font_class": "denglu",
+      "unicode": "e6e1",
+      "unicode_decimal": 59105
+    },
+    {
+      "icon_id": "2649879",
+      "name": "菜单",
+      "font_class": "menu",
+      "unicode": "e60a",
+      "unicode_decimal": 58890
+    },
+    {
+      "icon_id": "2811191",
+      "name": "左箭头",
+      "font_class": "icon",
+      "unicode": "e600",
+      "unicode_decimal": 58880
+    },
+    {
+      "icon_id": "3630938",
+      "name": "门店",
+      "font_class": "mendian",
+      "unicode": "e644",
+      "unicode_decimal": 58948
+    },
+    {
+      "icon_id": "6475347",
+      "name": "关 闭",
+      "font_class": "guanbi",
+      "unicode": "e626",
+      "unicode_decimal": 58918
+    },
+    {
+      "icon_id": "7444407",
+      "name": "房子",
+      "font_class": "tapp-specials-6",
+      "unicode": "e7a5",
+      "unicode_decimal": 59301
+    },
+    {
+      "icon_id": "7943231",
+      "name": "账户管理",
+      "font_class": "zhanghuguanli",
+      "unicode": "e61f",
+      "unicode_decimal": 58911
+    },
+    {
+      "icon_id": "9697022",
+      "name": "左箭头",
+      "font_class": "icon1",
+      "unicode": "e601",
+      "unicode_decimal": 58881
+    },
+    {
+      "icon_id": "12911587",
+      "name": "更多",
+      "font_class": "gengduo",
+      "unicode": "e602",
+      "unicode_decimal": 58882
+    }
+  ]
+}
